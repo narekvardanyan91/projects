@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/all.css">
+</head>
+
+<body>
+    <div id="start">
+        <button id="starting">
+            Click to turn ON calc
+        </button>
+    </div>
+    <div id="calc">
+        <div id="up">
+            <input type="text" id="led" placeholder="0" onclick="f('')">
+        </div>
+        <div id="buttons">
+            <div class="lineBox" id="line1">
+                <button class="orange box" id="onOff">
+                    <i class="fa-solid fa-power-off"></i>
+                </button>
+                <button class="orange box" id="end" onclick="c()">
+                    <i class="fa-solid fa-c"></i>
+                </button>
+                <button class="orange box" id="back" onclick="back()">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="orange box" id="minus" onclick="f('-')">-</button>
+            </div>
+            <div class="lineBox" id="line2">
+                <button class="blue box" id="one" onclick="f('1')">1</button>
+                <button class="blue box" id="two" onclick="f('2')">2</button>
+                <button class="blue box" id="three" onclick="f('3')">3</button>
+                <button class="orange box" id="bazmapatkac" onclick="f('*')">*</button>
+            </div>
+            <div class="lineBox" id="line3">
+                <button class="blue box" id="four" onclick="f('4')">4</button>
+                <button class="blue box" id="five" onclick="f('5')">5</button>
+                <button class="blue box" id="six" onclick="f('6')">6</button>
+                <button class="orange box" id="bajanac" onclick="f('/')">/</button>
+            </div>
+            <div class="lineBox" id="line4">
+                <button class="blue box" id="seven" onclick="f('7')">7</button>
+                <button class="blue box" id="eight" onclick="f('8')">8</button>
+                <button class="blue box" id="nine" onclick="f('9')">9</button>
+                <button class="orange box" id="plus" onclick="f('+')">+</button>
+
+            </div>
+            <div class="lineBox" id="line5">
+                <button class="blue box" id="ket" onclick="f('.')">.</button>
+                <button class="blue box" id="zero" onclick="f('0')">0</button>
+                <button class="orange box" id="havasar" onclick="ev()">=</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
