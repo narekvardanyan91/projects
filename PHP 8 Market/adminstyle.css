@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    background-color: cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container {
+    width: 30%;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.add_form {
+    width: 90%;
+    margin: 10px auto;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lime;
+}
+.add_form > h1, h3 {
+    padding-left: 10%;
+}
+.inputs{
+    margin-top: 20px;
+    height: 30px;
+}
+
+
+/* Table COntainer */
+.tableContainer{
+    width: 65%;
+    height: 500px;
+    border: 1px solid black;
+}
+iframe{
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+.i_name {
+    width: 50%;
+    height: 30px;
+    margin-top: 5px;
+    padding-left: 10px;
+    border-radius: 15px;
+
+    /* width: 30%; */
+}
+.typeBox{
+    font-size: 25px;
+
+}
+.measureBox{
+    font-size: 25px;
+}
+.rad {
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+}
+.saleValue{
+    width: 50%;
+    display: none;
+}
+.txt{
+    font-size: 20px;
+}
+
+
+.err {
+    font-size: 16px;
+    color: red;
+}
+.btn{
+    width: 150px;
+    height: 30px;
+}
+
+tr{
+    height: 50px;
+    width: 100%;
+
+}
+.td_id{
+    width: 40px;
+}
+.td_sale{
+    width: 50px;
+}
+td{
+    width: 20%;
+}

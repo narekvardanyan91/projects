@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.some_div_container {
+    position: absolute;
+    /* display: none; */
+}
+
+.login_container {
+    position: absolute;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.login_form>input {
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.mainContainer {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container {
+    padding-top: 10px;
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    border: 2px solid rgb(14, 174, 196);
+    border-radius: 10px;
+}
+
+.container1 {
+    padding-top: 10px;
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.container2 {
+    padding-top: 10px;
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: none;
+}
+
+.container3 {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: none;
+}
+
+.sale {
+    margin: 5px;
+    text-align: center;
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 2px solid red;
+    border-radius: 50%;
+    line-height: 2.2;
+    transform: rotate(30deg);
+    color: white;
+    background-color: red;
+}
+
+.productName {
+    text-align: center;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.photo {
+    width: 95%;
+    height: 210px;
+    margin-left: 2.5%;
+    margin-top: 10px;
+    border: 2px solid rgb(14, 174, 196);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.imgg {
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.main {
+    margin-left: 10%;
+    margin-top: 10px;
+    display: flex;
+    width: 80%;
+    height: 130px;
+    border: 2px solid rgb(14, 174, 196);
+    justify-content: space-around;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buyPrice {
+    width: 60%;
+    margin-left: 20%;
+    height: 25px;
+    font-size: 23px;
+    text-align: center;
+    border: 1px solid rgb(14, 174, 196);
+    border-radius: 5px;
+}
+
+.control_weight {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.control_count {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.side {
+    width: 25%;
+    height: 50px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display {
+    padding-top: 10px;
+    width: 45%;
+    height: 80px;
+    border: 2px solid rgb(14, 174, 196);
+    font-size: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.bbb {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.minuses {
+    display: flex;
+    align-items: right;
+}
+
+.bottomBtns {
+    width: 80%;
+    margin-top: 5px;
+    margin-left: 10%;
+    padding-top: 10px;
+    height: 30px;
+    display: flex;
+    font-size: 30px;
+}
+
+.fa-solid {
+    color: rgb(14, 174, 196);
+}
+
+.btnnns {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.delform {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btnnn {
+    width: 30%;
+    height: 30px;
+}
+
+.btnnns {
+    width: 100%;
+    display: flex;
+    flex-direction: left;
+    border: none;
+}
+
+.button {
+    width: 40%;
+    height: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.close {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    color: red;
+    text-align: center;
+    float: right;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hided {
+    display: none;
+}
