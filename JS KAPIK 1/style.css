@@ -1,0 +1,351 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	overflow: hidden;
+}
+
+.xx2 {
+	background-image: url(0.jpg);
+	background-size: contain;
+	/* background-attachment: fixed; */
+	height: 657px;
+	overflow: hidden;
+	display: none;
+}
+
+
+.xx1 {
+	width: 100%;
+	height: 657px;
+	background-color: silver;
+	justify-content: space-around;
+	display: flex;
+}
+
+.dufuculty {
+	position: absolute;
+	top: 30px;
+	width: 70%;
+	justify-content: space-around;
+	/* border:1px solid black; */
+	display: flex;
+}
+
+.box {
+	width: 20%;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	font-family: 'Shantell Sans', cursive;
+
+}
+
+.easy {
+	background-color: rgb(27, 190, 27);
+}
+
+.medium {
+	background-color: rgb(255, 255, 0);
+
+}
+
+.hard {
+	background-color: rgb(255, 0, 0);
+
+}
+
+.talk {
+	width: 70%;
+	height: 60px;
+	/* border: 1px solid black; */
+	position: absolute;
+	top: 200px;
+	border-radius: 10px;
+	font-size: 50px;
+	text-align: center;
+	line-height: 1.5;
+	font-family: 'Shantell Sans', cursive;
+
+}
+
+.bg {
+	position: absolute;
+	height: 340px;
+	/* border: 1px solid black; */
+	width: 70%;
+	top: 300px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.bgbg {
+	margin-top: 10px;
+	width: 45%;
+	height: 320px;
+	border: 1px solid black;
+	border-radius: 10px;
+	overflow: hidden;
+	background-position: center;
+}
+
+.sk {
+	position: absolute;
+	/* border:3px solid red; */
+	top: 10px;
+
+}
+
+.sk1 {
+	left: 18%;
+	top: 80px;
+}
+
+.sk2 {
+	top: 80px;
+	width: 20%;
+	left: 65%;
+
+}
+
+
+
+.a {
+	width: 100%;
+	height: 50;
+	position: relative;
+}
+
+.a1 {
+	width: 8%;
+	height: 50;
+	border: solid 3px white;
+	border-radius: 5px;
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.a2 {
+	width: 8%;
+	height: 50;
+	border: solid 3px white;
+	border-radius: 5px;
+	position: absolute;
+	left: 20%;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.winScore {
+	width: 8%;
+	height: 50px;
+	border: solid 3px white;
+	border-radius: 5px;
+	position: absolute;
+	right: 20%;
+	color: white;
+	line-height: 1.7;
+	font-size: 25px;
+	z-index: 20;
+}
+
+.loseScore {
+	width: 8%;
+	height: 50px;
+	border: solid 3px white;
+	border-radius: 5px;
+	position: absolute;
+	right: 10%;
+	color: white;
+	line-height: 1.7;
+	font-size: 25px;
+	z-index: 20;
+}
+
+.q {
+	width: 4%;
+	position: absolute;
+	left: 5%;
+}
+
+.q6 {
+	width: 100px;
+	height: 150px;
+	position: absolute;
+	left: 45%;
+	top: 400px;
+	background-size: cover;
+	/* transition: 0s; */
+	/* border: #ED0000 1px; */
+
+}
+
+.rot{
+	animation: ROT 1s linear infinite;
+}
+@keyframes ROT{
+	0%{transform:rotateY(0deg);}
+    50%{transform:rotateY(180deg);}
+    100%{transform:rotateY(360deg); }
+}
+
+
+
+.rr {
+	display: none;
+}
+
+.q7 {
+	width: 40%;
+	position: absolute;
+	left: 30%;
+	top: 100px;
+	display: none;
+	/* opacity: 0; */
+}
+
+.q8 {
+	width: 40%;
+	position: absolute;
+	left: 30%;
+	top: 300px;
+	display: none;
+	/* opacity: 0; */
+}
+
+.start {
+	width: 20%;
+	height: 75px;
+	position: absolute;
+	border: 1px solid black;
+	background-color: yellow;
+	box-shadow: inset 0px 0px 20px 16px #ED0000;
+	border-radius: 10px;
+	cursor: pointer;
+	overflow: hidden;
+	font-size: 50px;
+	text-align: center;
+	top: 120px;
+	left: 40%;
+	font-family: 'Shantell Sans', cursive;
+	line-height: 1.5;
+}
+
+.newGame {
+	position: absolute;
+	width: 10%;
+	height: 50px;
+	border: dashed 3px gold;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+	background-color: green;
+	left: 45%;
+	top: 150px;
+	display: none;
+}
+
+.menu {
+	width: 8%;
+	height: 50px;
+	border: 3px solid white;
+	border-radius: 5px;
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	z-index: 555;
+	overflow: hidden;
+	left: 46%;
+	top: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+
+/* controls start */
+
+.kkkk {
+	position: relative;
+	z-index: 55555555555;
+	top: 250px;
+	left: 0px;
+	width: 150px;
+	height: 300px;
+	border: solid 3px white;
+	justify-content: space-between;
+	border-radius: 10px;
+	opacity: 0.5;
+	/* display: flex; */
+}
+.kk{
+	position: absolute;
+	width: 100%;
+	height: 70px;
+	/* border: 1px solid lime; */
+	float: left;
+	display: column;
+	color:black;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.wsad{
+	float: left;
+	background-image: url(./wasd.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.arrow{
+	top:70px;
+	float: left;
+	background-image: url(./arrows.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.enter{
+	top:140px;
+	height: 50px;
+	background-image: url(./enter.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.space{
+	top:190px;
+	height: 50px;
+	background-image: url(./space.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.esc{
+	top:240px;
+	height: 50px;
+	background-image: url(./esc.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+
+/* controls done */
+
+.xx2 {
+	display: none;
+}
+
+/* @keyframes */
