@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 300px;
+    height: 500px;
+    margin: 10px auto;
+    border: 2px solid rgb(14, 174, 196);
+    border-radius: 10px;
+}
+
+.top {
+    padding-top: 5px;
+    width: 100%;
+    height: 50px;
+    /* border:1px solid black; */
+
+}
+
+.sale {
+    margin: 5px;
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 2px solid red;
+    border-radius: 50%;
+    line-height: 2.2;
+    transform: rotate(30deg);
+    color: white;
+    background-color: red;
+}
+
+.name {
+    display: block;
+    margin-left: 40%;
+    margin-top: 5px;
+    color: rgb(14, 174, 196);
+    font-weight: bolder;
+}
+
+.price {
+    margin-left: 37%;
+    display: block;
+    color: rgb(14, 174, 196);
+    font-weight: bolder;
+
+}
+
+.photo {
+    width: 95%;
+    height: 210px;
+    margin-left: 2.5%;
+    margin-top: 10px;
+    border: 2px solid rgb(14, 174, 196);
+    background-image: url(./728x542_1_4ca769fc7c4df783312357673aa00d66@1000x745_0xac120003_1375478751562646998.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.main {
+    padding-top: 11px;
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+    width: 70%;
+    height: 80px;
+    /* border: 1px solid rgb(14, 174, 196); */
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.knopka {
+    
+    display: block;
+    border: 1px solid rgb(14, 174, 196);
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    display: flex;
+    border-radius: 4px;
+    text-align: center;
+    padding-left: 3px;
+    color: rgb(14, 174, 196);
+    cursor: pointer;
+}
+
+.minus {
+    text-align: center;
+}
+
+.qash {
+    text-align: center;
+    margin-top: 2px;
+    display: flex;
+    width: 80px;
+    height: 50px;
+    border: 1px solid rgb(14, 174, 196);
+    border-radius: 5px;
+    font-size: 30px;
+    color: rgb(14, 174, 196);
+    font-weight: bold;
+
+}
+::placeholder{
+    color: rgb(14, 174, 196);
+    font-weight: bold;
+
+}
+
+.arjeq {
+    color:rgb(14, 174, 196);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.6;
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid rgb(14, 174, 196);
+    border-radius: 5px;
+}
+.cart{
+    width: 40px;
+    height: 35px;
+    /* border: 1px solid black; */
+    color:rgb(14, 174, 196);
+    margin:10px auto;
+    font-size: 30px;
+}
+.cart :hover {
+    cursor: pointer;
+}
