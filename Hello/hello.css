@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    width:100%;
+    height:650px;
+    overflow: hidden;
+    background-color: lightblue;
+
+}
+.a{
+    position:absolute;
+    width:50px;
+    height:50px;
+    font-size: 49px;
+    /* background-color: aquamarine; */
+    text-align: center;
+
+}
+.h{
+    top:600px;
+    left:95%;
+    animation: H 5s linear forwards;
+}
+@keyframes H {
+    0%{top:600px; left:95%;}
+    20%{top:1px; left:50%;}
+    40%{top:450px; left:1%;}
+    60%{top:540px; left:40%;}
+    80%{top:200px; left:98%;}
+    99%{border:none;}
+    100%{top:250px; left:37%; border-bottom: 2px solid black;}
+}
+.e{
+    top:150px;
+    left:10%;
+    animation: E 7s linear forwards;
+}
+@keyframes E {
+    0%{top:150px; left:10%;}   
+    33%{top:540px; left:50%;}
+    66%{top:1px; left:95%;}
+    98%{top:250px; left:40%;}
+    99%{border:none;}
+    100%{top:250px; left:40%; border-bottom: 2px solid black;}
+}
+.l{
+    top:400px;
+    left:50%;
+    animation: L 6s linear forwards;
+}
+@keyframes L {
+    0%{top:400px; left:50%;}
+    50%{top:1px; left:90%;}
+    99%{border:none;}
+    100%{top:250px; left:43%; border-bottom: 2px solid black;}
+}
+.ll{
+    top:400px;
+    left:0;
+    animation: LL 5s linear forwards;
+}
+@keyframes LL {
+    0%{top:400px; left:0%;}
+    10%{top:300px; left:97%;}
+    20%{top:150px; left:1%;}
+    30%{top:50px; left:97%;}
+    40%{top:1px; left:75%;}
+    50%{top:560px; left:20%;}
+    60%{top:1px; left:1%;}
+    70%{top:560px; left:70%;}
+    80%{top:1px; left:90%;}
+    90%{top:150px; left:97%;}
+    99%{border:none;}
+    100%{top:250px; left:46%; border-bottom: 2px solid black;}
+}
+.o{
+    top:20px;
+    left:80%;
+    animation: O 10s linear forwards;
+}
+@keyframes O {
+    0%{top:20px; left:80%;}
+    10%{top:540px; left:20%;}
+    20%{top:350px; left:95%;}
+    30%{top:280px; left:1%;}
+    40%{top:1px; left:30%;}
+    50%{top:520px; left:60%;}
+    60%{top:1px; left:1%;}
+    70%{top:200px; left:95%;}
+    80%{top:520px; left:75%;}
+    90%{top:1px; left:30%;}
+    99%{border:none;}
+    100%{top:250px; left:49%; border-bottom: 2px solid black;}
+}
