@@ -1,0 +1,134 @@
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Untitled.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 80%;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+}
+#header{
+    position: fixed;
+    width:80%;
+    height: 65px;
+    height:70px;
+    display: flex;
+    justify-content: space-around;
+    margin:0 auto;
+   
+
+}
+.name{
+    margin-top:9px;
+    height:50px;
+    width:100px;
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 8px;
+    
+    
+
+}
+.name::placeholder{
+    opacity:1;
+    color:white;
+}
+
+#start{
+    margin-top:11px;
+    width:100px;
+    height:50px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: lightblue;
+}
+#footer{
+    position: fixed;
+    width: 80%;
+    height: 60px;
+    margin: 580px auto;
+    display: flex;
+    justify-content: space-around;
+}
+#playerX{
+    background-color: rgb(77, 77, 219);
+}
+#playerO{
+    background-color: rgb(238, 81, 81);
+}
+
+#x_win{
+    background-color: rgb(77, 77, 219);
+}
+#o_win{
+    background-color: rgb(238, 81, 81);
+}
+
+.win_box{
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+    color:white;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 1.7;
+
+}
+#player_turn{
+    margin-top:10px;
+    width: 500px;
+    height:50px;
+    color:black;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 1.4;
+}
+table{
+    position: absolute;
+    margin:20px;
+}
+td{
+    margin-left: 2px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+    float:left;
+    color:black;
+    font-size: 120px;
+    text-align: center;
+}
+#tbl{
+    margin:auto;
+    width:500px;
+    height:500px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+#winBox{
+    position:absolute;
+    width:100%;
+    height:100%;
+    font-size: 150px;
+    color:black;
+    display: none;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 3;
+    transition:1s;
+}
